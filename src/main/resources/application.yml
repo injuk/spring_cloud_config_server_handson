@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: my_first_config_server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/injuk/spring_cloud_config_demo.git
+          default-label: main
+
+server:
+  port: 8840
